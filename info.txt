@@ -1,0 +1,27 @@
+Los siguientes códigos son los usados para crear el proyecto en Django 
+
+    -pip install virtualenv: Instala un entorno virtual con una versión de pip y de python.
+    -source venv/bin/activate: Activa el entorno virtual.
+    -F1/select interpreter/ python venv: venv: Selecciona el interprete para el proyecto.
+    -pip install django: Instala django en el proyecto.
+    -django-admin startproject 'nameproyect': Crea el proyecto | django-admin startproject 'nameproyect' . :Crea el proyecto en la misma carpeta
+    -python manage.py runserver: Ejecuta el proyecto
+    -manage.py permite ejecutar comandos de administración del proyecto
+    -python manage.py startapp "name": comando usado para crear una app
+
+Archivo settings.py:
+    *INSTALLED_APPS
+        -
+
+    *DATABASES:
+        -Conectarme a una base de datos 
+        -
+    -Cuando la aplicación esté en producción el DEBUG debe estar en TRUE, una vez lanzada la app, colocar en FALSE
+
+Archivo urls.py
+    -Las urls donde el usuario puede acceder 
+
+Archivo asgi.py 
+
+Archivo wsgi.py 
+
